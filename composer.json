@@ -1,0 +1,24 @@
+{
+  "name": "luisandre/car",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Luis Andre",
+      "email": "luisandremp@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Car\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Car\\": "tests/"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  }
+}
